@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Flexible(
             child: Container(color: Colors.blue, height: 100, width: 100),
